@@ -8,7 +8,7 @@
 clear; clear functions; close all force;
 
 warning("off");
-addpath("../../environment/kilnerys-0.1.0-octave-8.2.0-w64");
+addpath("../../environment/distribution-0.1.0-octave-8.2.0-w64");
 addpath("../../environment/casadi-3.6.3-windows64-octave7.3.0");
 
 import casadi.*;

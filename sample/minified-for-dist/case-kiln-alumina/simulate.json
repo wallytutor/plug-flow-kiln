@@ -1,0 +1,97 @@
+{
+    "project_data": "cases/standard-build-up",
+    "geometry": {
+        "kiln_slope": 2.5,
+        "kiln_inner_length": 34.0,
+        "kiln_inner_diameter": 1.8,
+        "kiln_dam_height": 0.001,
+        "thickness_refractory": 0.15,
+        "thickness_shell": 0.0254,
+        "thickness_coating": -999
+    },
+    "operation": {
+        "rotation_rate": 0.8,
+        "bed_feed_rate": 2000.0,
+        "gas_flow_rate": 1.4369741002211072,
+        "gas_leak_rate": 0.07546960408000891,
+        "bed_feed_temperature": 300,
+        "gas_feed_temperature": 2249.163146420468,
+        "bed_feed_humidity": 0,
+        "gas_feed_composition": [
+            9.631127357699132e-08,
+            0.010000000000000002,
+            0.08953661722202799,
+            0.18447532685648432,
+            0.009003487354471118,
+            0.7069844722557431
+        ]
+    },
+    "initial_guess": {
+        "gas_final_temperature": 800,
+        "bed_final_temperature": 1900
+    },
+    "heat_transfer_parameters": {
+        "emissivity_bed": 0.9,
+        "emissivity_refractory": 0.85,
+        "emissivity_shell": 0.79,
+        "environment_htc": -999,
+        "environment_temperature": -999,
+        "conductivity_coating": -999,
+        "conductivity_refractory": 1.5,
+        "conductivity_shell": 50
+    },
+    "hypothesis": {
+        "gas_equilibrated": true,
+        "gas_kinetics": "EBU",
+        "gas_film_thickness": 0.25
+    },
+    "numerical": {
+        "number_of_slices": 250,
+        "discretization_method": "linear"
+    },
+    "ipopt": {
+        "print_level": 5,
+        "hessian_approximation": "limited-memory",
+        "constr_viol_tol": 0.0001
+    },
+    "materials": {
+        "gas_data": null,
+        "bed_data": {
+            "repose_angle": 33.0,
+            "density_mass": 1000.0,
+            "solid_packing": 0.25,
+            "particle_diameter": 5e-05,
+            "molecular_mass": 0.1019613,
+            "step_temperature": 2327,
+            "shomate_poly_lo": [
+                108.683,
+                37.2263,
+                -14.2065,
+                2.193601,
+                -3.209881,
+                -1701.6,
+                155.136,
+                -1656.86
+            ],
+            "shomate_poly_hi": [
+                108.683,
+                37.2263,
+                -14.2065,
+                2.193601,
+                -3.209881,
+                -1701.6,
+                155.136,
+                -1656.86
+            ],
+            "thermal_conductivity_poly": [
+                0,
+                0,
+                0,
+                0,
+                30.0
+            ],
+            "thermal_conductivity_min": 30.0,
+            "thermal_conductivity_max": 30.0
+        }
+    }
+}

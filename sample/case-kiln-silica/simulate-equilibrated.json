@@ -1,0 +1,60 @@
+{
+    "geometry": {
+        "kiln_slope": 3,
+        "kiln_inner_length": 11.7348,
+        "kiln_inner_diameter": 1.3716,
+        "kiln_dam_height": 0.001,
+        "thickness_refractory": 0.2286,
+        "thickness_shell": 0.0127,
+        "thickness_coating": -999
+    },
+    "operation": {
+        "rotation_rate": 1.2,
+        "bed_feed_rate": 345.6,
+        "gas_flow_rate": 0.115,
+        "gas_leak_rate": 0.1022,
+        "bed_feed_temperature": 294.3,
+        "gas_feed_temperature": 1529.68,
+        "bed_feed_humidity": 0.03,
+        "gas_feed_composition": [
+            5.14847095e-8,
+            0.096,
+            0.0505154341,
+            0.106660322,
+            0.00938242229,
+            0.737441771
+        ]
+    },
+    "initial_guess": {
+        "gas_final_temperature": 800,
+        "bed_final_temperature": 1300
+    },
+    "heat_transfer_parameters": {
+        "emissivity_bed": 0.9,
+        "emissivity_refractory": 0.85,
+        "emissivity_shell": 0.79,
+        "environment_htc": -1,
+        "environment_temperature": -1,
+        "conductivity_coating": 0.6,
+        "conductivity_refractory": 1,
+        "conductivity_shell": 50
+    },
+    "hypothesis": {
+        "gas_equilibrated": true,
+        "gas_kinetics": "EBU",
+        "gas_film_thickness": 0.25
+    },
+    "numerical": {
+        "number_of_slices": 150,
+        "discretization_method": "linear"
+    },
+    "ipopt": {
+        "print_level": 5,
+        "hessian_approximation": "limited-memory",
+        "constr_viol_tol": 0.0001
+    },
+    "materials": {
+        "gas_data": null,
+        "bed_data": null
+    }
+}

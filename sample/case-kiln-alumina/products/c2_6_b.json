@@ -1,0 +1,11 @@
+{
+    "project_data": "cases/standard-build-up",
+    "_project_data": "cases/thick-build-up",
+    "material_file": "materials/gamma-alumina.json",
+    "rotation_rate": 1.14,
+    "bed_feed_rate": 2200.0,
+    "qdot_nat": 345.0,
+    "x_o2": 0.014,
+    "temp_air_leak": 540.0,
+    "__note__": "this were the conditions for measurement of shell temperature"
+}

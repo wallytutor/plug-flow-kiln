@@ -1,0 +1,37 @@
+{
+    "repose_angle": 33.0,
+    "density_mass": 1000.0,
+    "solid_packing": 0.25,
+    "particle_diameter": 0.00005,
+    "molecular_mass": 0.1019613,
+    "step_temperature": 2327,
+    "shomate_poly_lo": [
+        102.429,
+        38.7498,
+        -15.9109,
+        2.628181,
+        -3.007551,
+        -1717.93,
+        146.997,
+        -1675.69
+    ],
+    "shomate_poly_hi": [
+        102.429,
+        38.7498,
+        -15.9109,
+        2.628181,
+        -3.007551,
+        -1717.93,
+        146.997,
+        -1675.69
+    ],
+    "thermal_conductivity_poly": [
+        0,
+        0,
+        0,
+        0,
+        30.0
+    ],
+    "thermal_conductivity_min": 30.0,
+    "thermal_conductivity_max": 30.0
+}

@@ -1,0 +1,9 @@
+{
+    "project_data": "cases/standard-build-up",
+    "material_file": "materials/gamma-alumina.json",
+    "rotation_rate": 0.8,
+    "bed_feed_rate": 2000.0,
+    "qdot_nat": 420.0,
+    "x_o2": 0.01,
+    "temp_air_leak": 370.0
+}
